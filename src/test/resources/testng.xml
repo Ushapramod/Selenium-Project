@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="methods" thread-count="5">
+  <test name="Test Execution">
+  <groups><run><include name="login"></include></run></groups>
+    <classes>
+      <!-- Ensure this class contains the testCase3 method -->
+      <class name="TestNg.OrderOfExecutionTestScript">
+        <methods>
+          <include name="testCase3" />
+        </methods>
+      </class>
+
+      <!-- Ensure these classes contain valid test methods -->
+      <class name="TestNg.OrderOfExecutionTestScript2" />
+      <class name="TestNg.EcommerceTestGropsExample" />
+    </classes>
+  </test>
+</suite>
