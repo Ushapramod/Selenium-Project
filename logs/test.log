@@ -1,0 +1,13 @@
+2025-02-14 21:09:23 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLab
+2025-02-14 21:11:53 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLab
+2025-02-14 21:13:25 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLab
+2025-02-14 21:13:26 [main] INFO  com.SwagLab_POM.LoginTest_POM - Login Page Object Initialized
+2025-02-14 21:15:17 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLab
+2025-02-14 21:15:17 [main] INFO  com.SwagLab_POM.LoginTest_POM - Login Page Object Initialized
+2025-02-17 20:36:34 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-17 20:36:34 [main] INFO  com.SwagLab_POM.LoginTest_POM - Login Page Object Initialized
+2025-02-17 20:36:37 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-17 20:37:17 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-17 20:37:17 [main] INFO  com.SwagLab_POM.LoginTest_POM - Login Page Object Initialized
+2025-02-17 20:37:27 [main] ERROR com.SwagLabs.Base - Test case failed: loginTestWithValidCredentials
+2025-02-17 20:37:29 [main] INFO  com.SwagLabs.Base - Browser closed

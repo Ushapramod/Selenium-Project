@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg.ExtentReportInTestNG">
+      <class name="com.SwagLabs.loginTest">
         <methods>
-          <include name="loginTestMethod"/>
+          <include name="captureScreenshotOnFailure"/>
+          <include name="startTest"/>
+          <include name="tearDown"/>
+          <include name="loginTestWithValidCredentials" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestNg.ExtentReportInTestNG -->
+      </class> <!-- com.SwagLabs.loginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
