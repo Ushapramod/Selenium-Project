@@ -11,3 +11,39 @@
 2025-02-17 20:37:17 [main] INFO  com.SwagLab_POM.LoginTest_POM - Login Page Object Initialized
 2025-02-17 20:37:27 [main] ERROR com.SwagLabs.Base - Test case failed: loginTestWithValidCredentials
 2025-02-17 20:37:29 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 11:52:04 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 11:52:04 [main] ERROR com.SwagLabs.Base - Test case failed: checkDropDownFunctionality
+2025-02-20 11:52:08 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 11:53:31 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 11:53:34 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 12:12:46 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 12:12:47 [main] INFO  com.SwagLab_POM.DropDown_POM - Login Page Object Initialized
+2025-02-20 12:12:50 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 12:29:50 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 12:29:50 [main] INFO  com.SwagLab_POM.DropDown_POM - Login Page Object Initialized
+2025-02-20 12:29:53 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 12:38:08 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 12:38:08 [main] INFO  com.SwagLab_POM.DropDown_POM - Login Page Object Initialized
+2025-02-20 12:38:12 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 12:51:58 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 12:51:59 [main] INFO  com.SwagLab_POM.DropDown_POM - Login Page Object Initialized
+2025-02-20 12:52:00 [main] ERROR com.SwagLabs.Base - Test case failed: checkDropDownFunctionality
+2025-02-20 12:52:02 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 12:52:56 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 12:52:57 [main] INFO  com.SwagLab_POM.DropDown_POM - Login Page Object Initialized
+2025-02-20 12:52:58 [main] ERROR com.SwagLabs.Base - Test case failed: checkDropDownFunctionality
+2025-02-20 12:53:00 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 12:55:43 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 12:55:43 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 12:55:44 [main] INFO  com.SwagLab_POM.DropDown_POM - Primary dropDownSelected
+2025-02-20 12:55:45 [main] ERROR com.SwagLabs.Base - Test case failed: checkDropDownFunctionality
+2025-02-20 12:55:47 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 12:57:01 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 12:57:01 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 12:57:02 [main] INFO  com.SwagLab_POM.DropDown_POM - Primary dropDownSelected
+2025-02-20 12:57:05 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 12:59:56 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 12:59:57 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 12:59:57 [main] INFO  com.SwagLab_POM.DropDown_POM - Primary dropDownSelected
+2025-02-20 13:00:08 [main] ERROR com.SwagLabs.Base - Test case failed: checkDropDownFunctionality
+2025-02-20 13:00:09 [main] INFO  com.SwagLabs.Base - Browser closed

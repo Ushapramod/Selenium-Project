@@ -37,7 +37,7 @@ public class Base {
         WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.saucedemo.com/");
+        //driver.get("https://www.saucedemo.com/");
         log.info("Browser launched and navigated to SwagLabs");
     }
 
