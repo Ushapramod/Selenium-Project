@@ -1,116 +1,569 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="2" total="23" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-20T12:59:56 IST" name="Default suite" finished-at="2025-02-20T13:00:08 IST" duration-ms="11994">
+  <suite started-at="2025-02-21T09:01:44 IST" name="Suite" finished-at="2025-02-21T09:01:57 IST" duration-ms="12985">
     <groups>
     </groups>
-    <test started-at="2025-02-20T12:59:56 IST" name="Default test" finished-at="2025-02-20T13:00:08 IST" duration-ms="11994">
-      <class name="com.SwagLabs.dropDown">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SwagLabs.dropDown@611df6e3]" started-at="2025-02-20T12:59:49 IST" name="setUp" finished-at="2025-02-20T12:59:56 IST" duration-ms="6680" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.dropDown@611df6e3]" started-at="2025-02-20T12:59:56 IST" name="startTest" finished-at="2025-02-20T12:59:56 IST" duration-ms="15" status="PASS">
+    <test started-at="2025-02-21T09:01:44 IST" name="Test" finished-at="2025-02-21T09:01:57 IST" duration-ms="12985">
+      <class name="com.SwagLabs.checkbox">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="28" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.SwagLabs.dropDown.checkDropDownFunctionality()]]>
+                <![CDATA[public void com.SwagLabs.checkbox.method2()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="checkDropDownFunctionality()[pri:0, instance:com.SwagLabs.dropDown@611df6e3]" started-at="2025-02-20T12:59:56 IST" name="checkDropDownFunctionality" finished-at="2025-02-20T13:00:08 IST" duration-ms="11836" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: secondaryDropdow' (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: secondaryDropdow' (tried for 10 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.SwagLab_POM.DropDown_POM.SecondaryDropdown(DropDown_POM.java:49)
-at com.SwagLabs.dropDown.checkDropDownFunctionality(dropDown.java:25)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #secondaryDropdow
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5e9d0256-29a6-4fb8-9860-7ddac991e32a, findElement {value=secondaryDropdow, using=id}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0.1, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:debuggerAddress: 127.0.0.1:46665, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15220, moz:profile: C:\Users\USHA PRAMOD\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46665/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 5e9d0256-29a6-4fb8-9860-7ddac991e32a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkDropDownFunctionality -->
-        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.dropDown@611df6e3]" started-at="2025-02-20T13:00:08 IST" name="captureScreenshotOnFailure" finished-at="2025-02-20T13:00:08 IST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="28" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkDropDownFunctionality status=FAILURE method=dropDown.checkDropDownFunctionality()[pri:0, instance:com.SwagLabs.dropDown@611df6e3] output={null}]]]>
+                <![CDATA[public void com.SwagLabs.checkbox.method1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.method10()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.checkBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.checkBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.checkBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="checkBox" finished-at="2025-02-21T09:01:48 IST" duration-ms="3746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method signature="method1()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="method1" finished-at="2025-02-21T09:01:45 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="checkBox" finished-at="2025-02-21T09:01:48 IST" duration-ms="3676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method signature="checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="checkBox" finished-at="2025-02-21T09:01:48 IST" duration-ms="3770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method signature="method10()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="method10" finished-at="2025-02-21T09:01:45 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method10 -->
+        <test-method signature="method2()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="method2" finished-at="2025-02-21T09:01:45 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:45 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=method10 status=SUCCESS method=checkbox.method10()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotOnFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLabs.dropDown@611df6e3]" started-at="2025-02-20T13:00:08 IST" name="tearDown" finished-at="2025-02-20T13:00:10 IST" duration-ms="2017" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:45 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=method2 status=SUCCESS method=checkbox.method2()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:45 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=method1 status=SUCCESS method=checkbox.method1()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.method3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="method3()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="method3" finished-at="2025-02-21T09:01:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.method4()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="method4()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="method4" finished-at="2025-02-21T09:01:45 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.method5()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="method5()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="method5" finished-at="2025-02-21T09:01:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=method3 status=SUCCESS method=checkbox.method3()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.method6()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="method6()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="method6" finished-at="2025-02-21T09:01:45 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:45 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=method5 status=SUCCESS method=checkbox.method5()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=method6 status=SUCCESS method=checkbox.method6()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="method8()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="method8" finished-at="2025-02-21T09:01:45 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method8 -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.method8()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.method7()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="method7()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="method7" finished-at="2025-02-21T09:01:45 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method7 -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:45 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=method8 status=SUCCESS method=checkbox.method8()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.method9()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:45 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=method7 status=SUCCESS method=checkbox.method7()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="method9()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="method9" finished-at="2025-02-21T09:01:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method9 -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=method9 status=SUCCESS method=checkbox.method9()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:45 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=method4 status=SUCCESS method=checkbox.method4()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:48 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBox status=SUCCESS method=checkbox.checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:48 IST" name="checkBox" finished-at="2025-02-21T09:01:51 IST" duration-ms="3082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:48 IST" name="startTest" finished-at="2025-02-21T09:01:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.checkBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:48 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:48 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBox status=SUCCESS method=checkbox.checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:48 IST" name="startTest" finished-at="2025-02-21T09:01:48 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.checkBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:48 IST" name="checkBox" finished-at="2025-02-21T09:01:51 IST" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:48 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:48 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBox status=SUCCESS method=checkbox.checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:48 IST" name="checkBox" finished-at="2025-02-21T09:01:51 IST" duration-ms="3102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:48 IST" name="startTest" finished-at="2025-02-21T09:01:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.checkBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:51 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBox status=SUCCESS method=checkbox.checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:51 IST" name="checkBox" finished-at="2025-02-21T09:01:54 IST" duration-ms="3052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:51 IST" name="startTest" finished-at="2025-02-21T09:01:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.checkBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:51 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBox status=SUCCESS method=checkbox.checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:51 IST" name="startTest" finished-at="2025-02-21T09:01:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.checkBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:51 IST" name="checkBox" finished-at="2025-02-21T09:01:54 IST" duration-ms="3055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:51 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBox status=SUCCESS method=checkbox.checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:51 IST" name="startTest" finished-at="2025-02-21T09:01:51 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.checkBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:51 IST" name="checkBox" finished-at="2025-02-21T09:01:55 IST" duration-ms="3056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:54 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:54 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBox status=SUCCESS method=checkbox.checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:54 IST" name="checkBox" finished-at="2025-02-21T09:01:57 IST" duration-ms="3058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:54 IST" name="startTest" finished-at="2025-02-21T09:01:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.checkbox.checkBox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:54 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBox status=SUCCESS method=checkbox.checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:55 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBox status=SUCCESS method=checkbox.checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.checkbox@2289aca5]" started-at="2025-02-21T09:01:57 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBox status=SUCCESS method=checkbox.checkBox()[pri:0, instance:com.SwagLabs.checkbox@2289aca5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+      </class> <!-- com.SwagLabs.checkbox -->
+      <class name="com.SwagLabs.slider">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SwagLabs.slider@52500920]" started-at="2025-02-21T09:01:38 IST" name="setUp" finished-at="2025-02-21T09:01:44 IST" duration-ms="6889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.SwagLabs.slider@52500920]" started-at="2025-02-21T09:01:45 IST" name="startTest" finished-at="2025-02-21T09:01:45 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagLabs.slider.slider()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="slider()[pri:0, instance:com.SwagLabs.slider@52500920]" started-at="2025-02-21T09:01:45 IST" name="slider" finished-at="2025-02-21T09:01:46 IST" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:com.SwagLabs.slider@52500920]" started-at="2025-02-21T09:01:46 IST" name="captureScreenshotOnFailure" finished-at="2025-02-21T09:01:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=slider status=SUCCESS method=slider.slider()[pri:0, instance:com.SwagLabs.slider@52500920] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SwagLabs.slider@52500920]" started-at="2025-02-21T09:01:58 IST" name="tearDown" finished-at="2025-02-21T09:01:59 IST" duration-ms="1792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.SwagLabs.dropDown -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.SwagLabs.slider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

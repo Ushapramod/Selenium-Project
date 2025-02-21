@@ -1,4 +1,5 @@
-package com.SwagLab_Utils;
+package com.SwagLab_Utils;  // ✅ Correct package
+
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;

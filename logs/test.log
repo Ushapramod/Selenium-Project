@@ -47,3 +47,85 @@
 2025-02-20 12:59:57 [main] INFO  com.SwagLab_POM.DropDown_POM - Primary dropDownSelected
 2025-02-20 13:00:08 [main] ERROR com.SwagLabs.Base - Test case failed: checkDropDownFunctionality
 2025-02-20 13:00:09 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 13:06:07 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 13:06:08 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 13:06:09 [main] INFO  com.SwagLab_POM.DropDown_POM - Primary dropDownSelected
+2025-02-20 13:06:19 [main] ERROR com.SwagLabs.Base - Test case failed: checkDropDownFunctionality
+2025-02-20 13:06:21 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 13:06:55 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 13:06:56 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 13:06:57 [main] INFO  com.SwagLab_POM.DropDown_POM - Primary dropDownSelected
+2025-02-20 13:07:00 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 13:08:15 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 13:08:16 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 13:08:17 [main] INFO  com.SwagLab_POM.DropDown_POM - Primary dropDownSelected
+2025-02-20 13:08:19 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 15:12:22 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 15:12:24 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 16:01:59 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 16:01:59 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 16:02:01 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 16:03:29 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 16:03:29 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 16:03:31 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 16:53:43 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 16:53:43 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 16:53:45 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 19:53:19 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 19:53:20 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 19:53:23 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 19:54:13 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 19:54:14 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 19:54:18 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 19:55:03 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 19:55:07 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-20 19:55:09 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-20 19:55:41 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-20 19:55:42 [main] ERROR com.SwagLabs.Base - Test case failed: checkBox
+2025-02-20 19:55:46 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-21 07:46:27 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-21 07:46:28 [main] ERROR com.SwagLabs.Base - Test case failed: checkBox
+2025-02-21 07:46:30 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-21 07:48:44 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-21 07:48:47 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 07:48:49 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-21 07:49:55 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-21 07:49:58 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 07:50:00 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-21 08:10:12 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-21 08:10:16 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:10:19 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:10:22 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:10:25 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:10:28 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:10:31 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:10:34 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:10:37 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:10:40 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:10:43 [main] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:10:45 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-21 08:14:55 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-21 08:14:59 [TestNG-methods-3] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:14:59 [TestNG-methods-1] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:14:59 [TestNG-methods-2] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:15:02 [TestNG-methods-3] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:15:02 [TestNG-methods-1] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:15:02 [TestNG-methods-2] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:15:05 [TestNG-methods-3] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:15:05 [TestNG-methods-1] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:15:05 [TestNG-methods-2] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:15:08 [TestNG-methods-3] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 08:15:09 [main] INFO  com.SwagLabs.Base - Browser closed
+2025-02-21 09:01:44 [main] INFO  com.SwagLabs.Base - Browser launched and navigated to SwagLabs
+2025-02-21 09:01:46 [TestNG-test=Test-1] INFO  com.SwagLab_POM.Slider_POM - DropDown PAge Initilized
+2025-02-21 09:01:48 [TestNG-methods-2] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 09:01:48 [TestNG-methods-3] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 09:01:48 [TestNG-methods-1] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 09:01:51 [TestNG-methods-2] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 09:01:51 [TestNG-methods-3] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 09:01:51 [TestNG-methods-1] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 09:01:54 [TestNG-methods-2] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 09:01:54 [TestNG-methods-3] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 09:01:55 [TestNG-methods-1] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 09:01:57 [TestNG-methods-2] INFO  com.SwagLab_POM.DropDown_POM - DropDown PAge Initilized
+2025-02-21 09:01:59 [main] INFO  com.SwagLabs.Base - Browser closed
