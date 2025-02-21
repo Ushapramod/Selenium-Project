@@ -39,6 +39,7 @@ public class Base {
         driver.manage().window().maximize();
         //driver.get("https://www.saucedemo.com/");
         log.info("Browser launched and navigated to SwagLabs");
+        System.out.println("hi hi hi hi ");
     }
 
     @BeforeMethod
