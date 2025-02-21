@@ -24,7 +24,7 @@ public class DropDown_POM {
 	@FindBy(id = "primaryDropdown")
 	private WebElement primaryDropdown;
 
-	@FindBy(id = "secondaryDropdow")
+	@FindBy(id = "secondaryDropdown")
 	private WebElement secondaryDropdown;
 
 	public DropDown_POM(WebDriver driver) {
